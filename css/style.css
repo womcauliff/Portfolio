@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+	text-align: center;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}
+aside {
+	display: inline;
+	width: 150px;
+}
+body {
+	background-image: url("../images/dark-blue-silk.jpg");
+	color: white;
+	font-family: 'Arima Madurai', cursive;
+}
+footer {
+	border-top: 1px solid #ccc;
+}
+nav {
+	border-bottom: 1px solid #ccc;
+	text-align: left;
+	width: 100%;
+}
+section {
+	display: inline;
+	float: left;
+	width: 50%;
+}
+.clearfix {
+	overflow: auto;
+}
+.container {
+	width: 100%;
+}
+.content-wrapper {
+	background-color: black;
+/*	border-left: 1px dashed grey;
+	border-right: 1px dashed grey;*/	
+	margin: 0 auto;
+	max-width: 980px;
+	padding: 15px;
+	width: 100%;
+
+}
