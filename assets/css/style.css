@@ -18,6 +18,15 @@ body {
 footer {
 	border-top: 1px solid #ccc;
 }
+h1, h2 {
+	font-weight: bolder;
+}
+h1 {
+	font-size: xx-large;
+}
+h2 {
+	font-size: large;
+}
 nav {
 	border-bottom: 1px solid #ccc;
 	text-align: left;
@@ -26,10 +35,18 @@ nav {
 section {
 	display: inline;
 	float: left;
+	padding-bottom: 15px;
 	width: 50%;
+}
+.about-me img {
+	float: right;
+	width: 75%;
 }
 .clearfix {
 	overflow: auto;
+}
+.connect img {
+	margin: 7px;
 }
 .container {
 	width: 100%;
@@ -39,8 +56,16 @@ section {
 /*	border-left: 1px dashed grey;
 	border-right: 1px dashed grey;*/	
 	margin: 0 auto;
-	max-width: 980px;
+	max-width: 768px;
 	padding: 15px;
 	width: 100%;
+}
 
+
+@media only screen and (max-width: 768px) {
+	/* Add your code here */
+}
+
+@media only screen and (max-width: 640px) {
+	/* Add your code here */
 }
