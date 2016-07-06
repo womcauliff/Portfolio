@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	
+	<title>About Will McAuliff</title> 
+	<meta name="description" content="About Will McAuliff" />	    
+	<meta name="keywords" content="">
+	<meta property="og:title" content="About Will McAuliff">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/fancybox/jquery.fancybox-v=2.1.5.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="prefetch" href="assets/images/zoom.png">
+</head>
+
+<body>
+	<div class="navbar navbar-fixed-top" data-activeslide="1">
+		<div class="container">
+		
+			<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+			
+			<div class="nav-collapse collapse navbar-responsive-collapse">
+				<ul class="nav row">
+					<li data-slide="1" class="parallax col-12 col-sm-3"><a id="menu-link-1" href="#slide-1" title="Next Section"><span class="icon icon-home"></span> <span class="text">HOME</span></a></li>
+					<li data-slide="2" class="parallax col-12 col-sm-3"><a id="menu-link-2" href="#slide-2" title="Next Section"><span class="icon icon-user"></span> <span class="text">ABOUT ME</span></a></li>
+					<li data-slide="3" class="regular-link col-12 col-sm-3"><a id="menu-link-3" href="portfolio.html" title="Next Section"><span class="icon icon-briefcase"></span> <span class="text">PORTFOLIO</span></a></li>
+					<li data-slide="4" class="regular-link col-12 col-sm-3"><a id="menu-link-4" href="contact.html" title="Next Section"><span class="icon icon-envelope"></span> <span class="text">CONTACT</span></a></li>
+				</ul>
+				<div class="row">
+					<div class="col-sm-2 active-menu"></div>
+				</div>
+			</div><!-- /.nav-collapse -->
+		</div><!-- /.container -->
+	</div><!-- /.navbar -->
+	
+	
+	<!-- === Arrows === -->
+	<div id="arrows">
+		<div id="arrow-up" class="disabled"></div>
+		<div id="arrow-down"></div>
+		<div id="arrow-left" class="disabled visible-lg"></div>
+		<div id="arrow-right" class="disabled visible-lg"></div>
+	</div><!-- /.arrows -->
+	
+	
+	<!-- === MAIN Background === -->
+	<div class="slide story" id="slide-1" data-slide="1">
+		<div class="container">
+			<div id="home-row-1" class="row clearfix">
+				<div class="col-12">
+					<h1 class="font-semibold">WILL <span class="font-thin">McAULIFF</span></h1>
+					<h4 class="font-thin">Here is what you need to know about me.</h4>
+					<br>
+					<br>
+				</div><!-- /col-12 -->
+			</div><!-- /row -->
+			<div id="home-row-2" class="row clearfix">
+				<div class="col-12 col-sm-4"></div>
+				<div class="col-12 col-sm-4"></div>
+				<div class="col-12 col-sm-4"></div>
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /slide1 -->
+	
+	<!-- === Slide 2 === -->
+	<div class="slide story" id="slide-2" data-slide="2">
+		<div class="container">
+			<div class="row line-row">
+				<div class="hr">&nbsp;</div>
+			</div><!-- /row -->
+			<div class="row content-row">
+				<div class="col-12 col-lg-5 col-sm-6">
+					<img class="img-responsive" src="assets/images/profile.jpeg">
+				</div><!-- /col12 -->
+				<div class="col-12 col-lg-7 col-sm-6">
+					<h4>I graduated from Columbia College in May 2014, majoring in computer science. Not your typical techie, I can talk just as much about art and literature as I can about code, which is good because Columbia's curriculum gave me a healthy dose of both.</h4>
+
+					<h4><span class="font-semibold">I have always been passionate about bridging gaps.</span></h4>
+
+					<h4>My "aha!" moment was traveling to the Columbia Global Center in Kenya and seeing how community health workers use mobile software to improve healthcare delivery and outcomes. My drive is to bridge the gap between emerging science and the everyday people who need it.</h4>
+				</div><!-- /col12 -->
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /slide2 -->
+	
+</body>
+
+	<!-- SCRIPTS -->
+	<script src="assets/js/html5shiv.js"></script>
+	<script src="assets/js/jquery-1.10.2.min.js"></script>
+	<script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.easing.1.3.js"></script>
+	<!-- <script type="text/javascript" src="assets/fancybox/jquery.fancybox.pack-v=2.1.5.js"></script> -->
+	<script src="assets/js/script.js"></script>
+	
+	<!-- fancybox init -->
+	<script>
+	$(document).ready(function(e) {
+		var lis = $('.nav > li');
+		menu_focus( lis[0], 1 );	
+	});
+	</script>
+</html>
