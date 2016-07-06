@@ -84,7 +84,6 @@ $(document).ready(function(e) {
 * = Gallery width *
 ******************/
 $(function() {
-	console.log("gallery width");
 	var pause = 50; // will only process code within delay(function() { ... }) every 100ms.
 	$(window).resize(function() {
 		delay(function() {
@@ -126,9 +125,6 @@ var delay = (function(){
 })();
 
 function menu_focus( element, i ) {
-	console.log("menu focus");
-	console.log(element);
-	console.log(i);
 	if ( $(element).hasClass('active') ) {
 		if ( i == 4 ) {
 			if ( $('.navbar').hasClass('inv') == false )
